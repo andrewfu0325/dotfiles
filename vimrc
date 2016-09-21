@@ -1,3 +1,4 @@
+syntax on
 "General config"
 set ts=2
 set shiftwidth=2
