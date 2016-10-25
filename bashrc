@@ -39,7 +39,7 @@ fi
 case "$TERM" in
     xterm-color) color_prompt=yes;;
 # Let screentitle to get the name of current directory
-    screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k[`basename ${PWD}`]\033\0134"'
+    screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k[${WORK}]\033\0134"'
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
